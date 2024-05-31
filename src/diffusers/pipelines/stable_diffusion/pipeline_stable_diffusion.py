@@ -107,8 +107,8 @@ class StableDiffusionPipeline(DiffusionPipeline, TextualInversionLoaderMixin, Lo
     def __init__(
         self,
         vae: AutoencoderKL,
-        text_encoder: AutoModel.from_pretrained("csebuetnlp/banglabert-large"),
-        tokenizer: AutoTokenizer.from_pretrained('csebuetnlp/banglabert-large'),
+        text_encoder: AutoModel.from_pretrained("csebuetnlp/banglabert_large"),
+        tokenizer: AutoTokenizer.from_pretrained('csebuetnlp/banglabert_large'),
         unet: UNet2DConditionModel,
         scheduler: KarrasDiffusionSchedulers,
         safety_checker: StableDiffusionSafetyChecker,
