@@ -97,7 +97,7 @@ _deps = [
     "filelock",
     "flax>=0.4.1",
     "hf-doc-builder>=0.3.0",
-    "huggingface-hub>=0.13.2",
+    "huggingface-hub==0.23.4",
     "requests-mock==1.10.0",
     "importlib_metadata",
     "invisible-watermark>=0.2.0",
@@ -126,7 +126,7 @@ _deps = [
     "tensorboard",
     "torch>=1.4",
     "torchvision",
-    "transformers>=4.25.1",
+    "transformers==4.41.2",
     "urllib3<=2.0.0",
 ]
 
