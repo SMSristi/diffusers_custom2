@@ -94,7 +94,7 @@ _deps = [
     "compel==0.1.8",
     "black~=23.1",
     "datasets==2.20.0",
-    "filelock=3.15.1",
+    "filelock==3.15.1",
     "flax==0.8.4",
     "hf-doc-builder==0.5.0",
     "huggingface-hub==0.23.4",
