@@ -90,10 +90,10 @@ from setuptools import find_packages, setup
 # 2. once modified, run: `make deps_table_update` to update src/diffusers/dependency_versions_table.py
 _deps = [
     "Pillow",  # keep the PIL.Image.Resampling deprecation away
-    "accelerate>=0.11.0",
+    "accelerate==0.20.3",
     "compel==0.1.8",
     "black~=23.1",
-    "datasets",
+    "datasets==2.20.0",
     "filelock",
     "flax>=0.4.1",
     "hf-doc-builder>=0.3.0",
