@@ -93,7 +93,7 @@ _deps = [
     "accelerate==0.20.3",
     "compel==0.1.8",
     "black~=23.1",
-    "datasets==3.2.0",
+    "datasets",
     "filelock",
     "flax>=0.4.1",
     "hf-doc-builder>=0.3.0",
